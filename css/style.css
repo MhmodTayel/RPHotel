@@ -54,7 +54,20 @@ p {
   cursor: pointer;
 
 }
-
+button {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: #333;
+  padding: 19px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+button:hover {
+  color: #333;
+  background: #e6882b;
+}
 .btn:hover {
   color: #333;
   background: #e6882b;
